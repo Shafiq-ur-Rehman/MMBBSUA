@@ -360,7 +360,7 @@ def variance_distance():
     # opening the file avg-distance file
     with open('xaxis and yaxis average-value.csv', 'r') as xy_file:
         xy_reader = csv.reader(xy_file)
-        # reading title of human mouse movement data
+        # reading title of human mouse movement data,
         next(xy_reader)
         try:
             for line in xy_reader:
