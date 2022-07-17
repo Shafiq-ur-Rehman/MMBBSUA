@@ -139,7 +139,7 @@ def average_distance():
     file.writelines(data)
     # file1.close()
 
-    # reading human mouse movement data
+    # reading human mouse movement data from human-data files
     with open('human-data.csv', 'r') as csv_file:
         csv_reader = csv.reader(csv_file)
         # reading title of human mouse movement data
