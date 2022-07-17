@@ -170,6 +170,7 @@ def average_distance():
                         file.writelines(data)
                         # file1.close()
                         check = True
+                        # reset the variable average distance
                         avg_distance = 0
                         count = 0
                         # print(count)
