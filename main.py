@@ -109,7 +109,8 @@ def average_duration():
             # total_movement_file.close()
             print("File is ended: ")
 
-
+            
+# calculate the avg-distance of each mouse movement
 def average_distance():
     x1 = 0  # previous mouse movement step x-axis
     x2 = 0  # next mouse movement step x-axis
