@@ -353,6 +353,7 @@ def variance_duration():
             print("File is ended: ")
 
 
+# this function is to calculate the variance distance
 def variance_distance():
     x_axis = list()
     y_axis = list()
